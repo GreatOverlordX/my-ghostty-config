@@ -20,3 +20,20 @@ If you want nothing in it, just a floating terminal with no titlebar.
 - `window-decoration = none`
 
 check the **ghostty** documentation for further information: https://ghostty.org/docs
+
+----
+
+To apply the changes, you'd have to save the changes, exit the terminal & open it again.
+
+---
+
+If you're using `KDE`, you'd have the default KDE terminal emulator in the shortcut `Ctrl + Alt + T`
+however, to change it, just search for **ghostty** in your desktop then:
+- right click it.
+- click on edit application.
+- switch to the `advanced` tab.
+- on "Current shortcut key:" click, and press `Ctrl + Alt + T`.
+
+That is the default shortcut to open the terminal emulator, it will overwrite the default, of course. 
+Nevertheless, you can absolutely choose any other shortcut more convinient for you.
+I chose to overwrite the default, since I got used to it.
