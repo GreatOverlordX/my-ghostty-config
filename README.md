@@ -2,7 +2,8 @@
 This is a simple repo about my ghostty configuration. Designed for curious people who just jumped into ghostty terminal want to customise around their own ghostty configuration file.
 
 ## neofetch on ghostty with customised synthwave theme
-![Screenshot_20250307_130356](https://github.com/user-attachments/assets/acdcf86a-74d8-4361-82ad-ecc6fba5bb6a)
+![neofetch_arch](https://github.com/user-attachments/assets/ed281f36-1ac0-4c81-a246-f2c870303f75)
+
 
 Transparency has been enabled in the config files, as you can see.
 And a few other tweaks.
