@@ -1,23 +1,34 @@
 theme = synthwave
-    
+
+# titlebar
 shell-integration-features = no-cursor,sudo,no-title
 adjust-cell-height = 1%
 
 mouse-hide-while-typing = true
 font-size = 10
 cursor-style = block
-    
+
+# terminal - window style - opacity and titlebar decoration
 background-opacity = 0.94
-window-decoration = auto
+window-decoration = true
+window-theme = ghostty
+# more customizations (optional)
 window-padding-balance = true
 window-save-state = always
 window-colorspace = "display-p3"
     
-# maximise window
-maximize
+# maximise window - uncomment to activate (remove #)
+# maximize
 
-# color-palette of synthwave
-# synthwave - for manual customisation purposes
+# KEYBINDS
+keybind = global:ctrl+shift+m=toggle_maximize
+keybind = global:ctrl+shift+e=new_split:right
+keybind = global:ctrl+shift+d=new_split:down
+keybind = global:ctrl+shift+w=close_tab
+keybind = global:ctrl+shift+q=close_window
+
+
+# theme is by choice synthwave - for manual customisation purposes
 palette = 0=#000000
 palette = 1=#f6188f
 palette = 2=#1ebb2b
@@ -34,9 +45,9 @@ palette = 12=#2f9ded
 palette = 13=#f97137
 palette = 14=#19cde6
 palette = 15=#ffffff
-# background = #000000
-# foreground = #dad9c7
+background = #000000
+foreground = #ffffff
 cursor-color = #ffd75f
-cursor-text = #dad9c7
+cursor-text = #000000
 selection-background = #949494
 selection-foreground = #000000
